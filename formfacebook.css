@@ -1,0 +1,245 @@
+body
+{
+	font-family: sans-serif;
+}
+.header
+{
+
+	width:100vw;
+	height:5em;
+	margin-top:0;
+	display: inline-block;
+	background-color: #3E5C9A;
+}
+.FacebookName
+{
+	width:50%;
+	text-align: center;
+	transform: translate(-8%);
+	line-height: 2.3em;
+	font-size: 2.4em;
+	font-weight: bold;
+	font-family:sans-serif; 
+	color: #FFFFFF;
+
+}
+.LogIn
+{
+	width:50%;
+	margin-top:1em;
+}
+.header > .HeaderItem
+{
+	float:left;
+}
+.LogIn >[class^="LogInItem"]
+{
+	float:left;
+	margin-right: 2.4em;
+	color: #ffffff;
+	font-size: 0.8em;
+}
+.LogInItemInput
+{
+	width:100%;
+	height: 1.5em;
+	margin:0.27em 0 0.27em 0;
+}
+.LogInItem3
+{
+	margin-top:1.25em;	
+}
+button
+{
+	width:6.8em;
+	height:2em;
+	color: #ffffff;
+	border: none #2A4980;
+	background: #4267B2;
+	border: 0.1em solid #1b4998;
+}
+.HeaderText
+{
+	color: #9CB4D8;
+	font-size: 0.95em;
+}
+.main
+{
+	height:85vh;
+	width:100vw;
+	background-image: linear-gradient(to top, #D9DDEB, #DDE0ED,#E3E6F0,#F4F5F9,#F6F7FB,#FFFFFF);
+}
+.main > div
+{
+	float:left;
+}
+.LeftMain
+{
+	position:relative;
+	width:60%;
+	height: 100%
+}
+.RightMain
+{
+	width:39%;
+	height:100%;
+	transform: translate(-1%);
+}
+.LeftMainText
+{
+	font-size: 1.2em;
+	color: #0E385F;
+	width:50%;
+	font-weight:bold;
+	margin-right: 0;
+	position: absolute;
+	transform: translate(50%,2em);
+}
+.LeftMainImage
+{
+	position: absolute;
+	left:20%;
+	top:6.5em;
+}
+.RightMainHeader
+{
+	font-size:2.2em;
+	padding-top:0.8em;
+}
+.RightMainInput
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width:70%;
+}
+.RightMainInput1
+{
+	width:47.7%;
+	height:2.5em;
+	border-radius: 0.5em;
+	margin-bottom: 0.7em;
+	font-size: 1em;
+	box-sizing: border-box;
+	padding-left: 0.6em;
+	border:0.05em solid #B8D4DF;
+}
+
+.RightMainInput2
+{
+	width:100%;
+	height: 2.5em;
+	border-radius: 0.5em;
+	margin-bottom: 0.7em;
+	font-size: 1em;
+	box-sizing: border-box;
+	padding-left: 0.6em;
+	border:0.05em solid #B8D4DF;
+}
+.DateSelect
+{
+	margin-top:0.5em;
+	height:2.2em;
+	background-color: #ffffff;
+	font-size: 0.8em;
+}
+.fa-question-circle
+{
+	color:#606770;
+}
+.RightMainCheck
+{
+	margin-bottom: 1em;
+}
+.RightMainText
+{
+	font-size:0.72em;
+	width:55%;
+	color: #9C9CA0;
+}
+a
+{
+	text-decoration: none;
+	color: #637AAE;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+.RightMainButton
+{
+	width:33%;
+	height:1.6em;
+	border-radius: 0.3em;
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 1.3em;
+	box-sizing: border-box;
+	margin: 1em 0 1.5em 0;
+	background-color: #5D974A;
+	border:0.05em solid #4F5B60;
+}
+.RightMainButton:hover
+{
+	background-image: linear-gradient(to top, #5D974A , #B1FF93 );
+}
+.RightMainText2
+{
+	width:70%;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #666666;
+}
+.Footer
+{
+	width:100vw;
+}
+.Footer1
+{
+	margin-left:15%;
+	margin-top:0.5em;
+	width:67%;
+}
+.Footer2
+{
+	margin-left:15%;
+	width:67%;
+}
+.Footer2 > a
+{
+	margin-right:1em;
+	margin-bottom: 1em;
+}
+
+.FooterItem > a
+{
+	margin-right:0.7em;
+	font-size: 0.8em;
+}
+.FooterHr
+{
+	width:68%;
+	margin-left:15%;
+	color: #DDDFE2;
+}
+.Plus
+{
+	float:left;
+	margin-left:82%;
+	transform: translate(0,-1.1em);
+	width:2em;
+	height:1.5em;
+	border: 0.005em solid #D6D6D6;
+	background:#F5F6F7;
+
+}
+.fa-plus
+{
+	font-size: 0.8em;
+	padding: 0.5em 0 0.5em 0.75em;
+	color: #666D7C ;
+}
+
+
+
+
